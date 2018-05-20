@@ -1,3 +1,4 @@
+
 import xml.etree.ElementTree as etree
 import zipfile
 import Tools.Simulink.Class.Block as block
@@ -74,7 +75,6 @@ class Simulink:
 
         # Get all Lines
         xml_line = xml_system.findall('Line')
-        print(xml_line)
 
         # Loop for Lines
         for i in range( len(xml_line) ):
@@ -107,7 +107,7 @@ class Simulink:
                 s = s.replace('[','')
                 s = s.replace(']','')
                 s_list = s.split(";")
-                print (s_list)
+
                 
                 # Points initialisieren
                 points = []

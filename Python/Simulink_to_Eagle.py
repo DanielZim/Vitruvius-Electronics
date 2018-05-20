@@ -1,8 +1,6 @@
-#import Tools.Simulink.Class.Simulink as simu
-from Adapter.Simulink.Simulink import Simulink
-from Adapter.Eagle.Eagle import Eagle
-from Adapter.Utils import rotate
-import subprocess
+import Tools.Simulink.Class.Simulink as simu
+import Tools.Eagle.Class.Eagle as eag
+from Utilities.Utils import rotate
 import copy
 
 # Skalierungsfaktor für Positionen Simulink <-> Eagle
@@ -12,15 +10,14 @@ scale = 4*2.54/40
 
 
 # Pfade
-simulink = simu.Simulink('../Simulink/test.slx')
-path_simulink   = "C:\\Users\\Daniel\\Desktop\\Druva_Backup\\Matlab\\test.xmi" 
-path_eagle_load = "C:\\Users\\Daniel\\Desktop\\Druva_Backup\\Eagle_SDQ\\Testproject\\test.sch"
-path_eagle_save = "C:\\Users\\Daniel\\Desktop\\Druva_Backup\\Eagle_SDQ\\Testproject\\output.sch"
+path_simulink   = "../Simulink/test.slx" 
+path_eagle_load = "../Eagle/test.sch"
+path_eagle_save = "../Eagle/output.sch"
 
 
 # Objekte erstellen
-simulink = Simulink(path_simulink)
-eagle = Eagle(path_eagle_load, scale)
+simulink = simu.Simulink(path_simulink)
+eagle = eag.Eagle(path_eagle_load, scale)
 
 
 # Simulink-Data 
@@ -89,9 +86,9 @@ for part in eagle.xml_parts.findall('part'):
             else:
                 print("Error: Component not found!")
             
-            print(rotation)
-            print(instance.get('part'))
-            print()
+            #print(rotation)
+            #print(instance.get('part'))
+            #print()
             
             # Set Instance
             instance.set('x', str( eagle.scale*position[0]+diff_rot[0]))

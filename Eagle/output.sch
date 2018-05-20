@@ -12218,35 +12218,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </class>
 </classes>
 <parts>
-<part device="0204/5" deviceset="R-EU_" library="rcl" name="R1">
+<part device="0204/5" deviceset="R-EU_" library="rcl" name="R2">
 <attribute name="VITRUV_ID" value="0" />
 </part>
 <part device="085CS-1AR" deviceset="CPOL-EU" library="rcl" name="Cu1">
 <attribute name="VITRUV_ID" value="1" />
 </part>
-<part device="0204/5" deviceset="R-EU_" library="rcl" name="R2">
-<attribute name="VITRUV_ID" value="0" />
-</part>
 <part device="0204/5" deviceset="R-EU_" library="rcl" name="R3">
 <attribute name="VITRUV_ID" value="0" />
-</part>
-<part device="0204/5" deviceset="R-EU_" library="rcl" name="R4">
-<attribute name="VITRUV_ID" value="0" />
-</part>
-<part device="0204/5" deviceset="R-EU_" library="rcl" name="R5">
-<attribute name="VITRUV_ID" value="0" />
-</part>
-<part device="085CS-1AR" deviceset="CPOL-EU" library="rcl" name="Cu2">
-<attribute name="VITRUV_ID" value="1" />
-</part>
-<part device="085CS-1AR" deviceset="CPOL-EU" library="rcl" name="Cuzi1">
-<attribute name="VITRUV_ID" value="1" />
-</part>
-<part device="085CS-1AR" deviceset="CPOL-EU" library="rcl" name="Cuzi2">
-<attribute name="VITRUV_ID" value="1" />
-</part>
-<part device="085CS-1AR" deviceset="CPOL-EU" library="rcl" name="Cuzi3">
-<attribute name="VITRUV_ID" value="1" />
 </part>
 </parts>
 <sheets>
@@ -12254,35 +12233,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance gate="G$1" part="R1" rot="R180" x="222.25" y="-60.96">
+<instance gate="G$1" part="R2" rot="R180" x="47.244" y="-47.244">
 <attribute display="off" layer="96" name="VITRUV_ID" rot="R90" size="1.778" x="-25.4" y="2.54" />
 </instance>
-<instance gate="G$1" part="Cu1" rot="R270" x="323.84999999999997" y="-88.9">
+<instance gate="G$1" part="Cu1" rot="R270" x="248.92000000000002" y="-247.65">
 <attribute display="off" layer="96" name="VITRUV_ID" size="1.778" x="-43.18" y="-7.62" />
 </instance>
-<instance gate="G$1" part="R2" rot="R180" x="364.49" y="-88.9">
+<instance gate="G$1" part="R3" rot="R270" x="356.616" y="-356.616">
 <attribute display="off" layer="96" name="VITRUV_ID" rot="R90" size="1.778" x="-25.4" y="2.54" />
-</instance>
-<instance gate="G$1" part="R3" rot="R270" x="414.02" y="-107.95">
-<attribute display="off" layer="96" name="VITRUV_ID" rot="R90" size="1.778" x="-25.4" y="2.54" />
-</instance>
-<instance gate="G$1" part="R4" rot="R90" x="245.11" y="-64.77">
-<attribute display="off" layer="96" name="VITRUV_ID" rot="R90" size="1.778" x="-25.4" y="2.54" />
-</instance>
-<instance gate="G$1" part="R5" rot="R0" x="222.25" y="-45.72">
-<attribute display="off" layer="96" name="VITRUV_ID" rot="R90" size="1.778" x="-25.4" y="2.54" />
-</instance>
-<instance gate="G$1" part="Cu2" rot="R90" x="290.83000000000004" y="-88.9">
-<attribute display="off" layer="96" name="VITRUV_ID" size="1.778" x="-43.18" y="-7.62" />
-</instance>
-<instance gate="G$1" part="Cuzi1" rot="R90" x="344.17" y="-127.0">
-<attribute display="off" layer="96" name="VITRUV_ID" size="1.778" x="-43.18" y="-7.62" />
-</instance>
-<instance gate="G$1" part="Cuzi2" rot="R180" x="307.34000000000003" y="11.43">
-<attribute display="off" layer="96" name="VITRUV_ID" size="1.778" x="-43.18" y="-7.62" />
-</instance>
-<instance gate="G$1" part="Cuzi3" rot="R180" x="335.28000000000003" y="-24.13">
-<attribute display="off" layer="96" name="VITRUV_ID" size="1.778" x="-43.18" y="-7.62" />
 </instance>
 </instances>
 <busses>
@@ -12292,7 +12250,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire layer="91" width="0.1524" x1="-10.16" x2="-12.7" y1="2.54" y2="2.54" />
 <wire layer="91" width="0.1524" x1="-12.7" x2="-12.7" y1="2.54" y2="-2.54" />
-<wire layer="91" width="0.1524" x1="369.57" x2="373.38" y1="-88.9" y2="-88.9" /><wire layer="91" width="0.1524" x1="373.38" x2="414.02" y1="-88.9" y2="-88.9" /><wire layer="91" width="0.1524" x1="414.02" x2="414.02" y1="-88.9" y2="-99.06" /><wire layer="91" width="0.1524" x1="414.02" x2="414.02" y1="-99.06" y2="-102.87" /><wire layer="91" width="0.1524" x1="359.41" x2="355.6" y1="-88.9" y2="-88.9" /><wire layer="91" width="0.1524" x1="355.6" x2="330.2" y1="-88.9" y2="-88.9" /><wire layer="91" width="0.1524" x1="330.2" x2="326.39" y1="-88.9" y2="-88.9" /><wire layer="91" width="0.1524" x1="349.25" x2="353.06" y1="-127.0" y2="-127.0" /><wire layer="91" width="0.1524" x1="353.06" x2="414.02" y1="-127.0" y2="-127.0" /><wire layer="91" width="0.1524" x1="414.02" x2="414.02" y1="-127.0" y2="-116.84" /><wire layer="91" width="0.1524" x1="414.02" x2="414.02" y1="-116.84" y2="-113.03" /><wire layer="91" width="0.1524" x1="245.11" x2="245.11" y1="-69.85" y2="-73.66" /><wire layer="91" width="0.1524" x1="245.11" x2="245.11" y1="-73.66" y2="-83.82000000000001" /><wire layer="91" width="0.1524" x1="245.11" x2="234.442" y1="-83.82000000000001" y2="-83.82000000000001" /><wire layer="91" width="0.1524" x1="234.442" x2="234.442" y1="-83.82000000000001" y2="-60.96" /><wire layer="91" width="0.1524" x1="234.442" x2="231.14000000000001" y1="-60.96" y2="-60.96" /><wire layer="91" width="0.1524" x1="231.14000000000001" x2="227.33" y1="-60.96" y2="-60.96" /><wire layer="91" width="0.1524" x1="307.34000000000003" x2="307.34000000000003" y1="16.51" y2="20.32" /><wire layer="91" width="0.1524" x1="307.34000000000003" x2="335.28000000000003" y1="20.32" y2="20.32" /><wire layer="91" width="0.1524" x1="335.28000000000003" x2="335.28000000000003" y1="20.32" y2="-15.24" /><wire layer="91" width="0.1524" x1="335.28000000000003" x2="335.28000000000003" y1="-15.24" y2="-19.05" /><wire layer="91" width="0.1524" x1="307.34000000000003" x2="307.34000000000003" y1="8.89" y2="5.08" /><wire layer="91" width="0.1524" x1="307.34000000000003" x2="307.34000000000003" y1="5.08" y2="-49.022" /><wire layer="91" width="0.1524" x1="307.34000000000003" x2="335.28000000000003" y1="-49.022" y2="-49.022" /><wire layer="91" width="0.1524" x1="335.28000000000003" x2="335.28000000000003" y1="-49.022" y2="-30.48" /><wire layer="91" width="0.1524" x1="335.28000000000003" x2="335.28000000000003" y1="-30.48" y2="-26.67" /><wire layer="91" width="0.1524" x1="227.33" x2="231.14000000000001" y1="-45.72" y2="-45.72" /><wire layer="91" width="0.1524" x1="231.14000000000001" x2="245.11" y1="-45.72" y2="-45.72" /><wire layer="91" width="0.1524" x1="245.11" x2="245.11" y1="-45.72" y2="-55.88" /><wire layer="91" width="0.1524" x1="245.11" x2="245.11" y1="-55.88" y2="-59.69" /><wire layer="91" width="0.1524" x1="217.17000000000002" x2="213.36" y1="-45.72" y2="-45.72" /><wire layer="91" width="0.1524" x1="213.36" x2="202.692" y1="-45.72" y2="-45.72" /><wire layer="91" width="0.1524" x1="202.692" x2="202.692" y1="-45.72" y2="-60.96" /><wire layer="91" width="0.1524" x1="202.692" x2="213.36" y1="-60.96" y2="-60.96" /><wire layer="91" width="0.1524" x1="213.36" x2="217.17000000000002" y1="-60.96" y2="-60.96" /><wire layer="91" width="0.1524" x1="318.77" x2="314.96" y1="-88.9" y2="-88.9" /><wire layer="91" width="0.1524" x1="314.96" x2="299.72" y1="-88.9" y2="-88.9" /><wire layer="91" width="0.1524" x1="299.72" x2="295.91" y1="-88.9" y2="-88.9" /><wire layer="91" width="0.1524" x1="288.29" x2="284.48" y1="-88.9" y2="-88.9" /><wire layer="91" width="0.1524" x1="284.48" x2="284.48" y1="-88.9" y2="-127.0" /><wire layer="91" width="0.1524" x1="284.48" x2="337.82" y1="-127.0" y2="-127.0" /><wire layer="91" width="0.1524" x1="337.82" x2="341.63" y1="-127.0" y2="-127.0" /></segment>
+<wire layer="91" width="0.1524" x1="47.244" x2="51.054" y1="-47.244" y2="-47.244" /><wire layer="91" width="0.1524" x1="51.054" x2="104.394" y1="-47.244" y2="-47.244" /><wire layer="91" width="0.1524" x1="104.394" x2="356.616" y1="-47.244" y2="-352.806" /><wire layer="91" width="0.1524" x1="356.616" x2="356.616" y1="-352.806" y2="-356.616" /><wire layer="91" width="0.1524" x1="47.244" x2="43.434" y1="-47.244" y2="-47.244" /><wire layer="91" width="0.1524" x1="43.434" x2="96.774" y1="-47.244" y2="-47.244" /><wire layer="91" width="0.1524" x1="96.774" x2="251.46" y1="-47.244" y2="-247.65" /><wire layer="91" width="0.1524" x1="251.46" x2="247.65" y1="-247.65" y2="-247.65" /><wire layer="91" width="0.1524" x1="247.65" x2="243.84" y1="-247.65" y2="-247.65" /><wire layer="91" width="0.1524" x1="243.84" x2="243.84" y1="-247.65" y2="-287.274" /><wire layer="91" width="0.1524" x1="243.84" x2="353.06" y1="-287.274" y2="-287.274" /><wire layer="91" width="0.1524" x1="353.06" x2="356.616" y1="-287.274" y2="-360.426" /><wire layer="91" width="0.1524" x1="356.616" x2="356.616" y1="-360.426" y2="-356.616" /></segment>
 </net>
 </nets>
 </sheet>

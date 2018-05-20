@@ -28,12 +28,12 @@ class Line:
         #height   = self.srcBlock.get_heigth()
         #print(position)
         
-
+        print(self.srcPort)
         # Points für Start-Wire
-        if self.srcPort == 'LConn1':
+        if self.srcPort == 'lconn:1':
             p1 = [position[0]-width/2,    position[1]]
             p2 = [position[0]-width/2-15, position[1]]
-        elif self.srcPort == 'RConn1':
+        elif self.srcPort == 'rconn:1':
             p1 = [position[0]+width/2,    position[1]]
             p2 = [position[0]+width/2+15, position[1]]
  
@@ -67,10 +67,10 @@ class Line:
         #height   = self.dstBlock.get_heigth()
         
         # Points für End-Wire
-        if self.dstPort == 'LConn1':
+        if self.dstPort == 'lconn:1':
             p1 = [position[0]-width/2-15, position[1]]
             p2 = [position[0]-width/2,    position[1]]
-        elif self.dstPort == 'RConn1':
+        elif self.dstPort == 'rconn:1':
             p1 = [position[0]+width/2+15, position[1]] 
             p2 = [position[0]+width/2,    position[1]]          
             
